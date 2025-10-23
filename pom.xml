@@ -75,16 +75,6 @@
 	          <groupId>org.glassfish.web</groupId>
 	          <artifactId>jakarta.servlet.jsp.jstl</artifactId>
 		</dependency>
-		<!-- Lombok: genera automáticamente el logger -->
-		<!-- Spring Boot Starter Web (ya incluye slf4j-api y logback) -->
-	    <dependency>
-	        <groupId>org.projectlombok</groupId>
-	        <artifactId>lombok</artifactId>
-	        <version>1.18.34</version>
-	        <scope>provided</scope>
-	    </dependency>
-
-
 	</dependencies>
 
 	<build>
