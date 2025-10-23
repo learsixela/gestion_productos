@@ -14,7 +14,7 @@ public class HolaMundoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HolaMundoApplication.class, args);
 	}
-
+ 
 	//2. anotacion
 	@RequestMapping("/")
 	//3. definir metodo

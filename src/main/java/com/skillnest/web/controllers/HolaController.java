@@ -1,14 +1,14 @@
 package com.skillnest.web.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 
 import com.skillnest.web.Component.MiServicio;
 
 //@Slf4j
-@RestController
+@Controller
 public class HolaController {
 	//inyeccion de dependencias
 	@Autowired
