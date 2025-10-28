@@ -1,5 +1,7 @@
 package com.skillnest.web.controllers;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,6 +19,16 @@ public class PersonaController {
 	@Autowired
 	PersonaService personaService;
 	
+	//metodos
+	
+    @GetMapping
+    public String listarPersonas(Model model) {
+    	List<Persona> personas = personaService.listarTodas();
+    	model.addAttribute("personas", personas);
+        //model.addAttribute("personas", personaService.listarTodas());
+        return "personas/listado";
+    }
+	
     @GetMapping("/crear")
     public String mostrarFormulario() {
         return "personas/crear";
@@ -32,10 +44,11 @@ public class PersonaController {
     	persona.setEmail(email);
     	
     	//pasamos el objeto
-    	personaService.registrarPersona(persona);
+    	Persona persona_retorno = personaService.registrarPersona(persona);
     	
-    	model.addAttribute("nombre", nombre);
-        model.addAttribute("email", email);
+    	model.addAttribute("id", persona_retorno.getId());
+    	model.addAttribute("nombre", persona_retorno.getNombre());
+        model.addAttribute("email", persona_retorno.getEmail());
         return "personas/detalles";
     }
 }

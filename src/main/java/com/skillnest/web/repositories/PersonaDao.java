@@ -22,7 +22,7 @@ public class PersonaDao {
         return jdbcTemplate.query(sql, new PersonaRowMapper());
     }
 
-    public Persona obtenerPorId(int id) {
+    public Persona obtenerPorId(Long id) {
         String sql = "SELECT * FROM personas WHERE id = ?";
         return jdbcTemplate.queryForObject(sql, new PersonaRowMapper(), id);
     }
@@ -45,7 +45,7 @@ public class PersonaDao {
     }
 
     // DELETE
-    public int eliminar(int id) {
+    public int eliminar(Long id) {
         String sql = "DELETE FROM personas WHERE id = ?";
         return jdbcTemplate.update(sql, id);
     }
