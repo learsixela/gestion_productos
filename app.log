@@ -342,3 +342,251 @@
 2025-10-28T20:24:50.006-03:00  INFO 14216 --- [HolaMundo] [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-10-28T20:24:50.008-03:00  INFO 14216 --- [HolaMundo] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
 2025-10-28T20:24:50.035-03:00  INFO 14216 --- [HolaMundo] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-10-28T21:07:30.591-03:00  INFO 6880 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : Starting HolaMundoApplication using Java 21.0.7 with PID 6880 (C:\skillnest\W_STS\HolaMundo\target\classes started by Usuario in C:\skillnest\W_STS\HolaMundo)
+2025-10-28T21:07:30.597-03:00  INFO 6880 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-28T21:07:30.890-03:00  INFO 6880 --- [HolaMundo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-28T21:07:30.891-03:00  INFO 6880 --- [HolaMundo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-28T21:07:32.459-03:00  INFO 6880 --- [HolaMundo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-28T21:07:32.670-03:00  INFO 6880 --- [HolaMundo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 191 ms. Found 2 JPA repository interfaces.
+2025-10-28T21:07:33.810-03:00  INFO 6880 --- [HolaMundo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-28T21:07:33.842-03:00  INFO 6880 --- [HolaMundo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-28T21:07:33.842-03:00  INFO 6880 --- [HolaMundo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-28T21:07:34.517-03:00  INFO 6880 --- [HolaMundo] [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-10-28T21:07:34.546-03:00  INFO 6880 --- [HolaMundo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-28T21:07:34.547-03:00  INFO 6880 --- [HolaMundo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3655 ms
+2025-10-28T21:07:35.022-03:00  INFO 6880 --- [HolaMundo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-28T21:07:35.367-03:00  INFO 6880 --- [HolaMundo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-28T21:07:35.500-03:00  INFO 6880 --- [HolaMundo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-28T21:07:36.286-03:00  INFO 6880 --- [HolaMundo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-28T21:07:36.401-03:00  INFO 6880 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T21:07:36.890-03:00  INFO 6880 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e521de
+2025-10-28T21:07:36.892-03:00  INFO 6880 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T21:07:37.016-03:00  WARN 6880 --- [HolaMundo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T21:07:37.046-03:00  WARN 6880 --- [HolaMundo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T21:07:37.163-03:00  INFO 6880 --- [HolaMundo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-28T21:07:40.997-03:00  INFO 6880 --- [HolaMundo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-28T21:07:45.919-03:00  INFO 6880 --- [HolaMundo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T21:07:50.239-03:00  WARN 6880 --- [HolaMundo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-28T21:07:50.658-03:00 DEBUG 6880 --- [HolaMundo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 17 mappings in 'requestMappingHandlerMapping'
+2025-10-28T21:07:50.985-03:00 DEBUG 6880 --- [HolaMundo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-10-28T21:07:51.091-03:00 DEBUG 6880 --- [HolaMundo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-10-28T21:07:51.302-03:00 DEBUG 6880 --- [HolaMundo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-10-28T21:07:52.464-03:00  INFO 6880 --- [HolaMundo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-28T21:07:52.739-03:00  INFO 6880 --- [HolaMundo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-28T21:07:52.799-03:00  INFO 6880 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : Started HolaMundoApplication in 23.059 seconds (process running for 24.936)
+2025-10-28T21:09:01.040-03:00  INFO 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-28T21:09:01.043-03:00  INFO 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-28T21:09:01.045-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-10-28T21:09:01.073-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-10-28T21:09:01.075-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-10-28T21:09:01.087-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@527c5bf4
+2025-10-28T21:09:01.090-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5d181e48
+2025-10-28T21:09:01.093-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-10-28T21:09:01.093-03:00  INFO 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 49 ms
+2025-10-28T21:09:01.193-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes", parameters={}
+2025-10-28T21:09:01.324-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#listar()
+2025-10-28T21:09:02.629-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:09:02.632-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[]]
+2025-10-28T21:09:02.843-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:13:49.638-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/estudiantes", parameters={}
+2025-10-28T21:13:49.641-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#crear(Estudiante)
+2025-10-28T21:13:50.410-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.skillnest.web.models.Estudiante@1d8e7876]
+2025-10-28T21:13:50.785-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:13:50.786-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.skillnest.web.models.Estudiante@1d8e7876]
+2025-10-28T21:13:50.792-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:14:40.551-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes", parameters={}
+2025-10-28T21:14:40.553-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#listar()
+2025-10-28T21:14:40.582-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:14:40.582-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.skillnest.web.models.Estudiante@24709e9]]
+2025-10-28T21:14:40.587-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:14:59.803-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/estudiantes", parameters={}
+2025-10-28T21:14:59.803-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#crear(Estudiante)
+2025-10-28T21:14:59.805-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.skillnest.web.models.Estudiante@67782adb]
+2025-10-28T21:14:59.868-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:14:59.869-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.skillnest.web.models.Estudiante@67782adb]
+2025-10-28T21:14:59.869-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:15:08.704-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes", parameters={}
+2025-10-28T21:15:08.705-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#listar()
+2025-10-28T21:15:08.737-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:15:08.738-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.skillnest.web.models.Estudiante@225bc00b, com.skillnest.web.models.Estudiante@39a08268]]
+2025-10-28T21:15:08.740-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:15:35.865-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/1", parameters={}
+2025-10-28T21:15:35.872-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#obtener(Long)
+2025-10-28T21:15:35.915-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:15:35.915-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.skillnest.web.models.Estudiante@2e85c5d0]
+2025-10-28T21:15:35.916-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:15:43.452-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/2", parameters={}
+2025-10-28T21:15:43.453-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#obtener(Long)
+2025-10-28T21:15:43.460-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:15:43.460-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.skillnest.web.models.Estudiante@9742c9]
+2025-10-28T21:15:43.461-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:15:49.584-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/3", parameters={}
+2025-10-28T21:15:49.585-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#obtener(Long)
+2025-10-28T21:15:49.596-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:15:49.596-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2025-10-28T21:15:49.597-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:16:04.082-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes/2", parameters={}
+2025-10-28T21:16:04.083-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#obtener(Long)
+2025-10-28T21:16:04.095-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:16:04.096-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.skillnest.web.models.Estudiante@52083094]
+2025-10-28T21:16:04.098-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:18:25.502-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : PUT "/api/estudiantes/2", parameters={}
+2025-10-28T21:18:25.508-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#actualizar(Long, Estudiante)
+2025-10-28T21:18:25.516-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.skillnest.web.models.Estudiante@7de3273c]
+2025-10-28T21:18:25.575-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:18:25.575-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.skillnest.web.models.Estudiante@2eb55d1d]
+2025-10-28T21:18:25.577-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:18:31.389-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes", parameters={}
+2025-10-28T21:18:31.389-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#listar()
+2025-10-28T21:18:31.395-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:18:31.395-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.skillnest.web.models.Estudiante@10650f34, com.skillnest.web.models.Estudiante@332e4535]]
+2025-10-28T21:18:31.397-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:18:59.053-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/estudiantes", parameters={}
+2025-10-28T21:18:59.055-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#crear(Estudiante)
+2025-10-28T21:18:59.057-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.skillnest.web.models.Estudiante@19609f3b]
+2025-10-28T21:18:59.074-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:18:59.074-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.skillnest.web.models.Estudiante@19609f3b]
+2025-10-28T21:18:59.076-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:19:04.170-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes", parameters={}
+2025-10-28T21:19:04.171-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#listar()
+2025-10-28T21:19:04.178-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:19:04.178-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.skillnest.web.models.Estudiante@677233b5, com.skillnest.web.models.Estudiante@49160a89, com.ski (truncated)...]
+2025-10-28T21:19:04.179-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:19:31.009-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : DELETE "/api/estudiantes/3", parameters={}
+2025-10-28T21:19:31.011-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#eliminar(Long)
+2025-10-28T21:19:31.053-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:19:31.054-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2025-10-28T21:19:31.055-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:19:48.274-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/estudiantes", parameters={}
+2025-10-28T21:19:48.284-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#listar()
+2025-10-28T21:19:48.304-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:19:48.305-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.skillnest.web.models.Estudiante@21f4eaf3, com.skillnest.web.models.Estudiante@5b7176e]]
+2025-10-28T21:19:48.306-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-10-28T21:22:06.975-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/estudiantes", parameters={}
+2025-10-28T21:22:06.976-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.skillnest.web.restControllers.EstudianteController#crear(Estudiante)
+2025-10-28T21:22:06.980-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.skillnest.web.models.Estudiante@4cde1b1d]
+2025-10-28T21:22:07.006-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value: com.skillnest.web.models.Estudiante.email
+2025-10-28T21:22:07.007-03:00 ERROR 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value: com.skillnest.web.models.Estudiante.email] with root cause
+
+org.hibernate.PropertyValueException: not-null property references a null or transient value: com.skillnest.web.models.Estudiante.email
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:112) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:57) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:126) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:73) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:682) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:293) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:274) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:324) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:394) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:308) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:136) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.2.11.jar:6.2.11]
+	at jdk.proxy4/jdk.proxy4.$Proxy117.persist(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320) ~[spring-orm-6.2.11.jar:6.2.11]
+	at jdk.proxy4/jdk.proxy4.$Proxy117.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:654) ~[spring-data-jpa-3.5.4.jar:3.5.4]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.5.4.jar:3.5.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.5.4.jar:3.5.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.5.4.jar:3.5.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.5.4.jar:3.5.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.5.4.jar:3.5.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:734) ~[spring-data-commons-3.5.4.jar:3.5.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.5.4.jar:3.5.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.5.4.jar:3.5.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.5.4.jar:3.5.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.11.jar:6.2.11]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.5.4.jar:3.5.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.11.jar:6.2.11]
+	at jdk.proxy4/jdk.proxy4.$Proxy125.save(Unknown Source) ~[na:na]
+	at com.skillnest.web.services.EstudianteService.guardar(EstudianteService.java:22) ~[classes/:na]
+	at com.skillnest.web.restControllers.EstudianteController.crear(EstudianteController.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1776) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:975) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-10-28T21:22:07.051-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2025-10-28T21:22:07.053-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-10-28T21:22:07.100-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-10-28T21:22:07.102-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Oct 28 21:22:07 CLST 2025, status=500, error=Internal Server Error, trace=org.springf (truncated)...]
+2025-10-28T21:22:07.280-03:00 DEBUG 6880 --- [HolaMundo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2025-10-28T21:23:13.603-03:00  INFO 6880 --- [HolaMundo] [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-28T21:23:13.609-03:00  INFO 6880 --- [HolaMundo] [RMI TCP Connection(19)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-28T21:23:13.690-03:00  INFO 6880 --- [HolaMundo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-28T21:23:13.728-03:00  INFO 6880 --- [HolaMundo] [RMI TCP Connection(19)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-28T21:23:13.735-03:00  INFO 6880 --- [HolaMundo] [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T21:23:13.753-03:00  INFO 6880 --- [HolaMundo] [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
