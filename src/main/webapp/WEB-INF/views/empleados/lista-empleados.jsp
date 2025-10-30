@@ -13,6 +13,7 @@
 		<h1>Empleados y sus Cuentas</h1>
 	    <table class="table">
 	        <tr>
+	        <th>#</th>
 	            <th>Nombre</th>
 	            <th>Puesto</th>
 	            <th>Nombre de Usuario</th>
@@ -20,6 +21,7 @@
 	        </tr>
 	        <c:forEach var="emp" items="${empleados}">
 	            <tr>
+	                <td>${emp.id}</td>
 	                <td>${emp.nombre}</td>
 	                <td>${emp.puesto}</td>
 	                <td>${emp.cuentaUsuario.nombreUsuario}</td>

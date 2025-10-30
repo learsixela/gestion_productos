@@ -16,11 +16,11 @@ public class EmpleadoController {
 	 @Autowired
 	 private EmpleadoService empleadoService;
 	 
-	    @GetMapping("/empleados")
-	    public String mostrarEmpleados(Model model) {
-	        List<Empleado> empleados = empleadoService.findAll();
-	        model.addAttribute("empleados", empleados);
-	        return "empleados/lista-empleados";
-	    }
+    @GetMapping("/empleados")
+    public String mostrarEmpleados(Model model) {
+        List<Empleado> empleados = empleadoService.findAll();
+        model.addAttribute("empleados", empleados);
+        return "empleados/lista-empleados";
+    }
 
 }
