@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.skillnest.web.models.ProductoDto;
 import com.skillnest.web.services.ProductoService;
 
 @Controller
@@ -27,11 +28,15 @@ public class ProductoController {
     public String formularioCrear() {
         return "productos/crear";//hacia un jsp
     }
-    
+
     @PostMapping("/guardar")
     public String guardarProducto(@RequestParam String nombre, @RequestParam double precio,Model model) {
         // Procesar los datos
     	String mensaje = productoService.formatearProducto(nombre, precio);
+    	//instancia de la clase ProductoDto
+    	ProductoDto productoDto = new ProductoDto(nombre,"",0,precio);
+    	
+    	
     	
     	model.addAttribute("mensaje", mensaje);
         model.addAttribute("nombre", nombre);
