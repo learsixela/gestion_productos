@@ -1,17 +1,19 @@
 package com.skillnest.web.services;
 
-import org.springframework.stereotype.Service;
+import java.util.List;
 
+import com.skillnest.web.models.Producto;
 import com.skillnest.web.models.ProductoDto;
 
-@Service
+
 //aplicar logica de negocio
 public interface ProductoService {
 
     public String obtenerMensaje();
     public String formatearProducto(String nombre, double precio);
     //metodos CRUD
-    public void guardaProducto(ProductoDto productoDto);
+    public Producto guardaProducto(ProductoDto productoDto);
+	public List<Producto> listarTodos();
     
     
     

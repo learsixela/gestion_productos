@@ -11,8 +11,10 @@
 <div class="container">
 	<h2>Detalle del producto</h2>
 	<p>${mensaje}</p>
-	<p>Nombre: ${nombre}</p>
-	<p>Precio: ${precio}</p>
+	<p>Nombre: ${producto.nombre}</p>
+	<p>Precio: ${producto.precio}</p>
+	<p>Cantidad: ${producto.cantidad}</p>
+	<p>Detalle: ${producto.detalle}</p>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </div>
 </body>

@@ -1,5 +1,7 @@
 package com.skillnest.web.controllers;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -8,6 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.skillnest.web.models.Producto;
 import com.skillnest.web.models.ProductoDto;
 import com.skillnest.web.services.ProductoService;
 
@@ -20,7 +23,10 @@ public class ProductoController {
     
 	//http://localhost:8080/productos/listar
     @GetMapping("/listar")
-    public String listarProductos() {
+    public String listarProductos(Model model) {
+    	List<Producto> lista_productos= productoService.listarTodos();
+    	model.addAttribute("lista_productos", lista_productos);
+  
         return "productos/listar";//hacia un jsp
     }
 
@@ -35,12 +41,12 @@ public class ProductoController {
     	String mensaje = productoService.formatearProducto(nombre, precio);
     	//instancia de la clase ProductoDto
     	ProductoDto productoDto = new ProductoDto(nombre,"",0,precio);
-    	
-    	
+    	Producto almacenado =productoService.guardaProducto(productoDto);
     	
     	model.addAttribute("mensaje", mensaje);
-        model.addAttribute("nombre", nombre);
-        model.addAttribute("precio", precio);
+        model.addAttribute("nombre", almacenado.getNombre());
+        model.addAttribute("producto", almacenado);
+        
         return "productos/detalle";
         //return "redirect:/productos/listar";//http://localhost:8080/productos/listar
 
