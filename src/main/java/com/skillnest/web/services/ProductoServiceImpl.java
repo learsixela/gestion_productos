@@ -1,6 +1,7 @@
 package com.skillnest.web.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -39,6 +40,11 @@ public class ProductoServiceImpl implements ProductoService{
 	@Override
 	public List<Producto> listarTodos() {
 		return productoRepository.findAll();
+	}
+
+	@Override
+	public Optional<Producto> obtener(Long id) {
+		return productoRepository.findById(id);
 	}
     
 	

@@ -1,6 +1,7 @@
 package com.skillnest.web.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.skillnest.web.models.Producto;
 import com.skillnest.web.models.ProductoDto;
@@ -14,6 +15,7 @@ public interface ProductoService {
     //metodos CRUD
     public Producto guardaProducto(ProductoDto productoDto);
 	public List<Producto> listarTodos();
+	public Optional<Producto> obtener(Long id);
     
     
     
