@@ -3,6 +3,7 @@ package com.skillnest.web.restControllers;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,12 +21,12 @@ public class ProductoRestController {
     @Autowired
     private ProductoService productoService;
 	
-	@GetMapping("/")
+	@GetMapping("/listar")
     public List<Producto> listar() {
         return productoService.listarTodos();
     }
 	
-    @GetMapping("/{id}")
+    @GetMapping("/{id}")//ok; pendiente manejo de errores
     public Producto obtener(@PathVariable long id) {
         return productoService.obtener(id);
     }
@@ -34,5 +35,10 @@ public class ProductoRestController {
     //@PreAuthorize("hasRole('ADMIN')")
     public Producto crear(@RequestBody Producto producto) {
         return productoService.crear(producto);
+    }
+    
+    @DeleteMapping("/{id}")//ok; pendiente manejo de errores
+    public Producto eliminar(@PathVariable long id) {
+        return productoService.eliminar(id);
     }
 }
