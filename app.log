@@ -612,3 +612,249 @@ java.util.NoSuchElementException: No value present
 2025-11-10T20:05:12.060-03:00  INFO 21312 --- [HolaMundo] [RMI TCP Connection(30)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-11-10T20:05:12.060-03:00  INFO 21312 --- [HolaMundo] [RMI TCP Connection(30)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
 2025-11-10T20:05:12.079-03:00  INFO 21312 --- [HolaMundo] [RMI TCP Connection(30)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2025-11-10T20:17:13.634-03:00  INFO 5276 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : Starting HolaMundoApplication using Java 21.0.7 with PID 5276 (C:\skillnest\W_STS\HolaMundo\target\classes started by Usuario in C:\skillnest\W_STS\HolaMundo)
+2025-11-10T20:17:13.655-03:00  INFO 5276 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T20:17:13.860-03:00  INFO 5276 --- [HolaMundo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-10T20:17:13.862-03:00  INFO 5276 --- [HolaMundo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-10T20:17:18.294-03:00  INFO 5276 --- [HolaMundo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T20:17:18.626-03:00  INFO 5276 --- [HolaMundo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 293 ms. Found 7 JPA repository interfaces.
+2025-11-10T20:17:21.065-03:00  INFO 5276 --- [HolaMundo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-10T20:17:21.122-03:00  INFO 5276 --- [HolaMundo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T20:17:21.123-03:00  INFO 5276 --- [HolaMundo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-10T20:17:21.951-03:00  INFO 5276 --- [HolaMundo] [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-10T20:17:21.971-03:00  INFO 5276 --- [HolaMundo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T20:17:21.972-03:00  INFO 5276 --- [HolaMundo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8110 ms
+2025-11-10T20:17:22.774-03:00  INFO 5276 --- [HolaMundo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T20:17:23.088-03:00  INFO 5276 --- [HolaMundo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-10T20:17:23.291-03:00  INFO 5276 --- [HolaMundo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T20:17:24.974-03:00  INFO 5276 --- [HolaMundo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T20:17:25.106-03:00  INFO 5276 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T20:17:25.996-03:00  INFO 5276 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3800c959
+2025-11-10T20:17:26.001-03:00  INFO 5276 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T20:17:26.171-03:00  WARN 5276 --- [HolaMundo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-10T20:17:26.176-03:00  WARN 5276 --- [HolaMundo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-10T20:17:26.349-03:00  INFO 5276 --- [HolaMundo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10T20:17:29.451-03:00  INFO 5276 --- [HolaMundo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T20:17:29.756-03:00  INFO 5276 --- [HolaMundo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T20:17:31.364-03:00  WARN 5276 --- [HolaMundo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10T20:17:31.712-03:00 DEBUG 5276 --- [HolaMundo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 25 mappings in 'requestMappingHandlerMapping'
+2025-11-10T20:17:31.913-03:00 DEBUG 5276 --- [HolaMundo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-10T20:17:31.992-03:00 DEBUG 5276 --- [HolaMundo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-10T20:17:32.256-03:00 DEBUG 5276 --- [HolaMundo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-10T20:17:32.789-03:00  WARN 5276 --- [HolaMundo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d494eefc-0dd3-4709-8d4f-938be276cc86
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-10T20:17:32.813-03:00  INFO 5276 --- [HolaMundo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-11-10T20:17:33.325-03:00  INFO 5276 --- [HolaMundo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-10T20:17:33.443-03:00  INFO 5276 --- [HolaMundo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-10T20:17:33.469-03:00  INFO 5276 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : Started HolaMundoApplication in 22.959 seconds (process running for 27.959)
+2025-11-10T20:17:51.153-03:00  INFO 5276 --- [HolaMundo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T20:17:51.157-03:00  INFO 5276 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T20:17:51.158-03:00 DEBUG 5276 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-11-10T20:17:51.160-03:00 DEBUG 5276 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-11-10T20:17:51.160-03:00 DEBUG 5276 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-11-10T20:17:51.162-03:00 DEBUG 5276 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@625c5e36
+2025-11-10T20:17:51.162-03:00 DEBUG 5276 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@611ef7f
+2025-11-10T20:17:51.163-03:00 DEBUG 5276 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-11-10T20:17:51.164-03:00  INFO 5276 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2025-11-10T20:22:17.621-03:00  INFO 5276 --- [HolaMundo] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-10T20:22:17.630-03:00  INFO 5276 --- [HolaMundo] [RMI TCP Connection(7)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T20:22:17.651-03:00  INFO 5276 --- [HolaMundo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-10T20:22:17.664-03:00  INFO 5276 --- [HolaMundo] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T20:22:17.675-03:00  INFO 5276 --- [HolaMundo] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T20:22:17.717-03:00  INFO 5276 --- [HolaMundo] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-10T20:54:22.190-03:00  INFO 2400 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : Starting HolaMundoApplication using Java 21.0.7 with PID 2400 (C:\skillnest\W_STS\HolaMundo\target\classes started by Usuario in C:\skillnest\W_STS\HolaMundo)
+2025-11-10T20:54:22.194-03:00  INFO 2400 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T20:54:22.329-03:00  INFO 2400 --- [HolaMundo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-10T20:54:22.329-03:00  INFO 2400 --- [HolaMundo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-10T20:54:24.907-03:00  INFO 2400 --- [HolaMundo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T20:54:25.153-03:00  INFO 2400 --- [HolaMundo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 178 ms. Found 7 JPA repository interfaces.
+2025-11-10T20:54:26.748-03:00  INFO 2400 --- [HolaMundo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-10T20:54:26.803-03:00  INFO 2400 --- [HolaMundo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T20:54:26.804-03:00  INFO 2400 --- [HolaMundo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-10T20:54:27.303-03:00  INFO 2400 --- [HolaMundo] [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-10T20:54:27.326-03:00  INFO 2400 --- [HolaMundo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T20:54:27.329-03:00  INFO 2400 --- [HolaMundo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4998 ms
+2025-11-10T20:54:27.868-03:00  INFO 2400 --- [HolaMundo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T20:54:28.059-03:00  INFO 2400 --- [HolaMundo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-10T20:54:28.215-03:00  INFO 2400 --- [HolaMundo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T20:54:29.170-03:00  INFO 2400 --- [HolaMundo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T20:54:29.306-03:00  INFO 2400 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T20:54:29.730-03:00  INFO 2400 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a57a40a
+2025-11-10T20:54:29.737-03:00  INFO 2400 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T20:54:29.842-03:00  WARN 2400 --- [HolaMundo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-10T20:54:29.846-03:00  WARN 2400 --- [HolaMundo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-10T20:54:29.916-03:00  INFO 2400 --- [HolaMundo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10T20:54:32.893-03:00  INFO 2400 --- [HolaMundo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T20:54:33.122-03:00  INFO 2400 --- [HolaMundo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T20:54:34.584-03:00  WARN 2400 --- [HolaMundo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10T20:54:34.920-03:00 DEBUG 2400 --- [HolaMundo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2025-11-10T20:54:35.185-03:00 DEBUG 2400 --- [HolaMundo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-10T20:54:35.303-03:00  WARN 2400 --- [HolaMundo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5901bad6-f77e-457c-a4af-458709aa0ff9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-10T20:54:35.359-03:00  INFO 2400 --- [HolaMundo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-11-10T20:54:35.883-03:00 DEBUG 2400 --- [HolaMundo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-10T20:54:36.054-03:00 DEBUG 2400 --- [HolaMundo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-10T20:54:36.423-03:00  INFO 2400 --- [HolaMundo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-10T20:54:36.538-03:00  INFO 2400 --- [HolaMundo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-10T20:54:36.564-03:00  INFO 2400 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : Started HolaMundoApplication in 15.706 seconds (process running for 18.015)
+2025-11-10T20:56:18.503-03:00  INFO 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T20:56:18.504-03:00  INFO 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T20:56:18.504-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-11-10T20:56:18.504-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-11-10T20:56:18.504-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-11-10T20:56:18.508-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7d8dacc
+2025-11-10T20:56:18.510-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@25b779b1
+2025-11-10T20:56:18.510-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-11-10T20:56:18.512-03:00  INFO 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2025-11-10T20:56:18.683-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/auth/login", parameters={}
+2025-11-10T20:56:18.715-03:00  WARN 2400 --- [HolaMundo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-11-10T20:56:18.725-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 405 METHOD_NOT_ALLOWED
+2025-11-10T20:56:18.771-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-11-10T20:56:18.773-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-11-10T20:56:18.947-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-10T20:56:18.950-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Nov 10 20:56:18 CLST 2025, status=405, error=Method Not Allowed, trace=org.springfram (truncated)...]
+2025-11-10T20:56:19.193-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 405
+2025-11-10T20:56:53.155-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2025-11-10T20:56:53.157-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-11-10T20:56:53.160-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-10T20:56:53.160-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Nov 10 20:56:53 CLST 2025, status=403, error=Forbidden, message=Forbidden, path=/auth (truncated)...]
+2025-11-10T20:56:53.163-03:00 DEBUG 2400 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 403
+2025-11-10T20:57:30.288-03:00  INFO 2400 --- [HolaMundo] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-10T20:57:30.292-03:00  INFO 2400 --- [HolaMundo] [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T20:57:30.310-03:00  INFO 2400 --- [HolaMundo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-10T20:57:30.319-03:00  INFO 2400 --- [HolaMundo] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T20:57:30.325-03:00  INFO 2400 --- [HolaMundo] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T20:57:30.354-03:00  INFO 2400 --- [HolaMundo] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-10T20:57:52.760-03:00  INFO 18380 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : Starting HolaMundoApplication using Java 21.0.7 with PID 18380 (C:\skillnest\W_STS\HolaMundo\target\classes started by Usuario in C:\skillnest\W_STS\HolaMundo)
+2025-11-10T20:57:52.768-03:00  INFO 18380 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T20:57:52.941-03:00  INFO 18380 --- [HolaMundo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-10T20:57:52.941-03:00  INFO 18380 --- [HolaMundo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-10T20:57:56.072-03:00  INFO 18380 --- [HolaMundo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T20:57:56.338-03:00  INFO 18380 --- [HolaMundo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 233 ms. Found 7 JPA repository interfaces.
+2025-11-10T20:57:58.071-03:00  INFO 18380 --- [HolaMundo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-10T20:57:58.127-03:00  INFO 18380 --- [HolaMundo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T20:57:58.128-03:00  INFO 18380 --- [HolaMundo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-10T20:57:58.749-03:00  INFO 18380 --- [HolaMundo] [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-11-10T20:57:58.775-03:00  INFO 18380 --- [HolaMundo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T20:57:58.777-03:00  INFO 18380 --- [HolaMundo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5833 ms
+2025-11-10T20:57:59.643-03:00  INFO 18380 --- [HolaMundo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T20:57:59.819-03:00  INFO 18380 --- [HolaMundo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-10T20:57:59.930-03:00  INFO 18380 --- [HolaMundo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T20:58:00.976-03:00  INFO 18380 --- [HolaMundo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T20:58:01.107-03:00  INFO 18380 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T20:58:01.882-03:00  INFO 18380 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34ca7769
+2025-11-10T20:58:01.886-03:00  INFO 18380 --- [HolaMundo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T20:58:02.035-03:00  WARN 18380 --- [HolaMundo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-10T20:58:02.040-03:00  WARN 18380 --- [HolaMundo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-10T20:58:02.116-03:00  INFO 18380 --- [HolaMundo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10T20:58:05.202-03:00  INFO 18380 --- [HolaMundo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T20:58:05.407-03:00  INFO 18380 --- [HolaMundo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T20:58:06.842-03:00  WARN 18380 --- [HolaMundo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10T20:58:07.117-03:00 DEBUG 18380 --- [HolaMundo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2025-11-10T20:58:07.415-03:00 DEBUG 18380 --- [HolaMundo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-11-10T20:58:07.470-03:00  WARN 18380 --- [HolaMundo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ed10a204-b9b7-47e2-8c8d-a1f488fe8b54
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-10T20:58:07.492-03:00  INFO 18380 --- [HolaMundo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-11-10T20:58:08.164-03:00 DEBUG 18380 --- [HolaMundo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-11-10T20:58:08.324-03:00 DEBUG 18380 --- [HolaMundo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-11-10T20:58:08.743-03:00  INFO 18380 --- [HolaMundo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-10T20:58:08.898-03:00  INFO 18380 --- [HolaMundo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-10T20:58:08.930-03:00  INFO 18380 --- [HolaMundo] [restartedMain] com.skillnest.web.HolaMundoApplication   : Started HolaMundoApplication in 18.218 seconds (process running for 21.643)
+2025-11-10T20:58:21.303-03:00  INFO 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T20:58:21.304-03:00  INFO 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T20:58:21.305-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-11-10T20:58:21.305-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-11-10T20:58:21.306-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-11-10T20:58:21.314-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6eca17c
+2025-11-10T20:58:21.316-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1def998f
+2025-11-10T20:58:21.316-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-11-10T20:58:21.317-03:00  INFO 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2025-11-10T20:58:21.627-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2025-11-10T20:58:21.665-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-11-10T20:58:21.925-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-10T20:58:21.938-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Nov 10 20:58:21 CLST 2025, status=403, error=Forbidden, message=Forbidden, path=/auth (truncated)...]
+2025-11-10T20:58:22.373-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 403
+2025-11-10T20:58:42.844-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2025-11-10T20:58:42.845-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-11-10T20:58:42.845-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-10T20:58:42.847-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Nov 10 20:58:42 CLST 2025, status=403, error=Forbidden, message=Forbidden, path=/auth (truncated)...]
+2025-11-10T20:58:42.851-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 403
+2025-11-10T20:58:45.856-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2025-11-10T20:58:45.857-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-11-10T20:58:45.858-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-10T20:58:45.858-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Nov 10 20:58:45 CLST 2025, status=403, error=Forbidden, message=Forbidden, path=/auth (truncated)...]
+2025-11-10T20:58:45.862-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 403
+2025-11-10T20:59:03.357-03:00  INFO 18380 --- [HolaMundo] [http-nio-8080-exec-5] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xf30x010x000x000xef0x030x03<%a@B0x160x05nW0xaah)00x990xaa0xdeC>0x880x8c0xdeE*S0xe1)480x890xdf0xc40xbb ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:403) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1776) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:975) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-11-10T21:00:06.365-03:00  INFO 18380 --- [HolaMundo] [http-nio-8080-exec-2] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xf30x010x000x000xef0x030x030x88<0x88NsV0xec0x0f*0x0e0xdf0x8c+0x8f50x9f0xffMO,l]0xd80x080x110xc5c$0x16+s0xfd ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:403) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1776) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:975) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-11-10T21:00:33.622-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2025-11-10T21:00:33.625-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-11-10T21:00:33.628-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-10T21:00:33.630-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Nov 10 21:00:33 CLST 2025, status=403, error=Forbidden, message=Forbidden, path=/auth (truncated)...]
+2025-11-10T21:00:33.633-03:00 DEBUG 18380 --- [HolaMundo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 403
+2025-11-10T21:00:42.592-03:00  INFO 18380 --- [HolaMundo] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-10T21:00:42.598-03:00  INFO 18380 --- [HolaMundo] [RMI TCP Connection(6)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T21:00:42.621-03:00  INFO 18380 --- [HolaMundo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-10T21:00:42.631-03:00  INFO 18380 --- [HolaMundo] [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T21:00:42.639-03:00  INFO 18380 --- [HolaMundo] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T21:00:42.707-03:00  INFO 18380 --- [HolaMundo] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

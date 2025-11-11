@@ -60,6 +60,12 @@ public class ProductoServiceImpl implements ProductoService{
 		}
 		return producto;
 	}
+
+	@Override
+	public Producto actualizar(long id, Producto producto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
     
 	
     

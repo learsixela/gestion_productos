@@ -17,6 +17,7 @@ public interface ProductoService {
 	public Producto obtener(Long id);
 	public Producto crear(Producto producto);
 	public Producto eliminar(long id);
+	public Producto actualizar(long id, Producto producto);
     
 }
 
